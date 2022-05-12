@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script src="getinfo.js"></script>
+        <script src="ajax.js"></script>
+        <script src="https://cdn.plot.ly/plotly-2.11.1.min.js"></script>
+    </head>
+    <body>
+        <h1>Trees rating app</h1>
+        <h2>Add Trees</h2>
+        <p>
+            Tree id:<br/>
+            <input type="text" id="tree_id_input"/><br/><br/>
+        </p>
+        <button onClick="getTree();">Submit</button>
+        <div id="trees"></div>
+        <div id="plot"></div>
+    </body>
+</html>
